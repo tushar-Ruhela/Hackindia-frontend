@@ -59,7 +59,7 @@ const Dashboard = () => {
   ];
   
   const recentMeetings = [
-    { id: "1", title: "Weekly Team Standup", date: "Tomorrow at 9:30 AM", status: "Scheduled", transcript: true },
+    // { id: "1", title: "Weekly Team Standup", date: "Tomorrow at 9:30 AM", status: "Scheduled", transcript: true },
     // { id: "2", title: "Product Review", date: "Yesterday at 2:00 PM", status: "Completed", transcript: true },
     // { id: "3", title: "Client Presentation", date: "Apr 15, 2025", status: "Scheduled", transcript: false },
   ];
@@ -72,11 +72,11 @@ const Dashboard = () => {
       </div>
       
       {/* Stats */}
-      <div className="grid gap-4 md:grid-cols-3">
+      {/* <div className="grid gap-4 md:grid-cols-3">
         {stats.map((stat, index) => (
           <Card key={index} className="bg-white shadow-lg rounded-lg">
             <CardContent className="p-6">
-              <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between">
                 <div>
                   <p className="text-muted-foreground text-sm">{stat.label}</p>
                   <p className="text-3xl font-bold text-gray-800">{stat.value}</p>
@@ -88,7 +88,7 @@ const Dashboard = () => {
             </CardContent>
           </Card>
         ))}
-      </div>
+      </div> */}
       
       {/* Join Meeting Card */}
       <Card className="bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100 shadow-lg rounded-lg">

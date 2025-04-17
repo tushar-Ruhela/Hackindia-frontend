@@ -12,42 +12,42 @@ const Transcripts = () => {
 
   // Mock data for transcripts
   const transcripts = [
-    { 
-      id: "1", 
-      meetingId: "1",
-      meetingTitle: "Weekly Team Standup", 
-      date: "Apr 17, 2025", 
-      duration: "30 mins",
-      speakerCount: 4,
-      wordCount: 1250,
-    },
-    { 
-      id: "2", 
-      meetingId: "2",
-      meetingTitle: "Product Review", 
-      date: "Apr 16, 2025", 
-      duration: "1 hour",
-      speakerCount: 5,
-      wordCount: 3500,
-    },
-    { 
-      id: "3", 
-      meetingId: "4",
-      meetingTitle: "Q1 Review", 
-      date: "Apr 12, 2025", 
-      duration: "1.5 hours",
-      speakerCount: 8,
-      wordCount: 5200,
-    },
-    { 
-      id: "4", 
-      meetingId: "5",
-      meetingTitle: "Marketing Strategy", 
-      date: "Apr 10, 2025", 
-      duration: "1 hour",
-      speakerCount: 6,
-      wordCount: 2800,
-    },
+    // { 
+    //   id: "1", 
+    //   meetingId: "1",
+    //   meetingTitle: "Weekly Team Standup", 
+    //   date: "Apr 17, 2025", 
+    //   duration: "30 mins",
+    //   speakerCount: 4,
+    //   wordCount: 1250,
+    // },
+    // { 
+    //   id: "2", 
+    //   meetingId: "2",
+    //   meetingTitle: "Product Review", 
+    //   date: "Apr 16, 2025", 
+    //   duration: "1 hour",
+    //   speakerCount: 5,
+    //   wordCount: 3500,
+    // },
+    // { 
+    //   id: "3", 
+    //   meetingId: "4",
+    //   meetingTitle: "Q1 Review", 
+    //   date: "Apr 12, 2025", 
+    //   duration: "1.5 hours",
+    //   speakerCount: 8,
+    //   wordCount: 5200,
+    // },
+    // { 
+    //   id: "4", 
+    //   meetingId: "5",
+    //   meetingTitle: "Marketing Strategy", 
+    //   date: "Apr 10, 2025", 
+    //   duration: "1 hour",
+    //   speakerCount: 6,
+    //   wordCount: 2800,
+    // },
   ];
 
   // Handle sorting and filtering
